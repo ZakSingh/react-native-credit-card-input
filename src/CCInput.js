@@ -92,6 +92,7 @@ export default class CCInput extends Component {
             placeholderTextColor={placeholderColor}
             placeholder={placeholder}
             value={value}
+            allowFontScaling={false}
             onFocus={this._onFocus}
             onChangeText={this._onChange} />
         </View>
